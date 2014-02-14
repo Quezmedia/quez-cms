@@ -7,16 +7,17 @@ require "quezcms/version"
 Gem::Specification.new do |s|
   s.name        = "quezcms"
   s.version     = Quezcms::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Quezcms."
-  s.description = "TODO: Description of Quezcms."
+  s.authors     = ["Filipe Chagas"]
+  s.email       = ["filipe@ochagas.com"]
+  s.homepage    = "https://github.com/Quezmedia/quez-cms"
+  s.summary     = "Quez CMS"
+  s.description = "..."
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.0.2"
+  s.add_dependency "static_content"
 
   s.add_development_dependency "sqlite3"
 end
